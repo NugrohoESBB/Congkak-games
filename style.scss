@@ -1,0 +1,99 @@
+// try square instead of circle
+$player1-color: #FF0000;
+$player2-color: #0000FF;
+
+body {
+  background-color: #171717;
+  font-family: 'Mali', cursive;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h1 {
+  color: #000000;
+  padding: 10rem 0 1rem 0;
+  background-color: #FFFFFF;
+  font-size: 3.5rem;
+}
+
+%house {
+  border: 0.15rem solid;
+  border-radius: 2rem;
+  text-align: center;
+  margin: 0.25rem;
+  font-size: 2rem;
+  //color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.white-border-hvr:hover {
+    border-color: white;
+    cursor: pointer;
+}
+
+.p1-houses {
+  @extend %house;
+  border-color: $player1-color;
+  background-color: $player1-color;
+}
+
+.p2-houses {
+  @extend %house;
+  border-color: $player2-color;
+  background-color: $player2-color;
+}
+
+%storage {
+  border: 0.15rem solid;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 0;
+  margin: 0.25rem;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+
+.p1-storage {
+  @extend %storage;
+  border-color: $player1-color;
+  background-color: $player1-color;
+}
+
+.p2-storage {
+  @extend %storage;
+  border-color: $player2-color;
+  background-color: $player2-color;
+}
+
+.game-msg {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  border: 0.2rem solid #FFFFFF;
+  border-radius: 1rem;
+  padding: 0.25rem 1.5rem;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+%button {
+  max-width: fit-content;
+  cursor: pointer;
+}
+
+.start-btn {
+  @extend %button;
+  margin: 0 auto;
+  padding: 0.25rem 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+  border: 0.2rem solid #7D7D7D;
+  background-color: #7D7D7D;
+  border-radius: 1rem;
+  color: #FFFFFF;
+}
+
+// Functionality
+.hide {
+  display: none;
+}

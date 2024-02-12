@@ -1,0 +1,90 @@
+body {
+  background-color: #171717;
+  font-family: "Mali", cursive;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h1 {
+  color: #000000;
+  padding: 10rem 0 1rem 0;
+  background-color: #FFFFFF;
+  font-size: 3.5rem;
+}
+
+.p2-houses, .p1-houses {
+  border: 0.15rem solid;
+  border-radius: 2rem;
+  text-align: center;
+  margin: 0.25rem;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+
+.white-border-hvr:hover {
+  border-color: white;
+  cursor: pointer;
+}
+
+.p1-houses {
+  border-color: #FF0000;
+  background-color: #FF0000;
+}
+
+.p2-houses {
+  border-color: #0000FF;
+  background-color: #0000FF;
+}
+
+.p2-storage, .p1-storage {
+  border: 0.15rem solid;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 0;
+  margin: 0.25rem;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+
+.p1-storage {
+  border-color: #FF0000;
+  background-color: #FF0000;
+}
+
+.p2-storage {
+  border-color: #0000FF;
+  background-color: #0000FF;
+}
+
+.game-msg {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  border: 0.2rem solid #FFFFFF;
+  border-radius: 1rem;
+  padding: 0.25rem 1.5rem;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+
+.start-btn {
+  max-width: fit-content;
+  cursor: pointer;
+}
+
+.start-btn {
+  margin: 0 auto;
+  padding: 0.25rem 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+  border: 0.2rem solid #7D7D7D;
+  background-color: #7D7D7D;
+  border-radius: 1rem;
+  color: #FFFFFF;
+}
+
+.hide {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
