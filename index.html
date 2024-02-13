@@ -1,0 +1,45 @@
+<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<meta name="description" content="">
+  	<meta name="author" content="">
+
+    <title>Congklak Game</title>
+
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+		<link rel="stylesheet" href="assets/css/sweetalert.css">
+
+		<script src="assets/js/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+
+		<h1>
+			Congklak Game
+		</h1>
+
+		<div  id="congkak"></div>
+
+		<!-- <div class="corner-ribbon bottom-right sticky green shadow"><a href="nugrohoesbb020@gmail.com">Developed by Nugroho<br/>nugrohoesbb020@gmail.com</a></div> -->
+
+		<!-- sweetalert -->
+		<script src="assets/js/sweetalert.min.js"></script>
+
+		<!-- congkak -->
+		<script src="lib/congkak-queue.js"></script>
+		<script src="lib/congkak-view.js"></script>
+		<script src="lib/congkak-seeds.js"></script>
+		<script src="lib/congkak-loop.js"></script>
+		<script src="lib/congkak.js"></script>
+		<script>
+			$(function(){
+				Congkak.init('#congkak');
+			});
+		</script>
+	</body>
+</html>
